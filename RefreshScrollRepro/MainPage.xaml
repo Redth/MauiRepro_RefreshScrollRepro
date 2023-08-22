@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:RefreshScrollRepro"
+             x:Class="RefreshScrollRepro.MainPage">
+
+    <ScrollView>
+        <RefreshView x:Name="refreshView" Refreshing="RefreshView_Refreshing">
+
+            <local:FlowingLayout Spacing="10" Padding="10">
+
+                <ContentView WidthRequest="100" HeightRequest="100" Background="LightGray">
+                    <Label Text="One" VerticalOptions="Center" HorizontalOptions="Center" />
+                </ContentView>
+
+                <ContentView WidthRequest="100" HeightRequest="100" Background="LightGray">
+                    <Label Text="Two" VerticalOptions="Center" HorizontalOptions="Center"  />
+                </ContentView>
+
+                <ContentView WidthRequest="100" HeightRequest="100" Background="LightGray">
+                    <Label Text="Three" VerticalOptions="Center" HorizontalOptions="Center"  />
+                </ContentView>
+
+                <ContentView WidthRequest="100" HeightRequest="100" Background="LightGray">
+                    <Label Text="Four" VerticalOptions="Center" HorizontalOptions="Center"  />
+                </ContentView>
+
+                <ContentView WidthRequest="100" HeightRequest="100" Background="LightGray">
+                    <Label Text="Five" VerticalOptions="Center" HorizontalOptions="Center"  />
+                </ContentView>
+
+                <ContentView WidthRequest="100" HeightRequest="100" Background="LightGray">
+                    <Label Text="Six" VerticalOptions="Center" HorizontalOptions="Center"  />
+                </ContentView>
+
+                <ContentView WidthRequest="100" HeightRequest="100" Background="LightGray">
+                    <Label Text="Seven" VerticalOptions="Center" HorizontalOptions="Center"  />
+                </ContentView>
+
+                <ContentView WidthRequest="100" HeightRequest="100" Background="LightGray">
+                    <Label Text="Eight" VerticalOptions="Center" HorizontalOptions="Center"  />
+                </ContentView>
+
+            </local:FlowingLayout>
+
+        </RefreshView>
+        
+    </ScrollView>
+
+</ContentPage>
+
